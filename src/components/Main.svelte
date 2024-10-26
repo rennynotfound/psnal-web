@@ -65,7 +65,7 @@
                 </div>
                 <span class="text-3xl font-medium text-blue-300">Personal Website</span>
                 <p class="text-gray-200 mb-2 poppins font-normal" style="letter-spacing: 1px;"> My first fully self-coded website using Javascript, HTML, and CSS!</p>
-                <span class="text-blue-400 font-medium">SvelteKit, TailwindCSS</span>
+                <span class="text-blue-300 font-medium">SvelteKit, TailwindCSS</span>
             </div>
         </div>
     
