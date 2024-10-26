@@ -12,8 +12,8 @@
         </h1>
     </div>
 
-    <div class="container">
-        <h1><span class="auto-type text-green-300 font-medium"></span></h1>
+    <div class="container text-center">
+        <h1><span class="auto-type text-green-300 font-medium text-center"></span></h1>
     </div>
 
     <div class="text-center">

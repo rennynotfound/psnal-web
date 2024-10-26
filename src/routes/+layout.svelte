@@ -5,6 +5,7 @@
   let y;
   let innerHeight = 0;
   let innerWidth = 0;
+import { inject } from '@vercel/analytics'
 
 
   function goTop()
