@@ -65,7 +65,7 @@
                 </div>
                 <span class="text-3xl font-medium text-blue-300">Personal Website</span>
                 <p class="text-gray-200 mb-2 poppins font-normal" style="letter-spacing: 1px;"> My first fully self-coded website using Javascript, HTML, and CSS!</p>
-                <span class="text-blue-300 font-medium">SvelteKit, TailwindCSS</span>
+                <span class="text-blue-300   font-medium">SvelteKit, TailwindCSS</span>
             </div>
         </div>
     
@@ -84,7 +84,7 @@
         <a href="https://sites.google.com/lexingtonma.org/lexcalc" target="_blank" class="box border-4 border-gray-700 rounded-lg p-2 md:w-[30%]">
             <div class="text-center">
                 <div class="bg-beige rounded p-2 mx-auto mb-2">
-                    <img src="https://lh3.googleusercontent.com/jVdB-b3U_f1vBfiyNCpTvDWWuCLfG3T2BFqqUOyNzU_dTVRaR4Vb2kKQt1FZV6j5r5awU2PqYHYSzzGkeR2Emz0=w16383" class="rounded">
+                    <img src="https://ibb.co/cDk4jC1"><img src="https://i.ibb.co/MMZFmGs/Screenshot-2024-02-03-10-01-05-AM-removebg-preview-1-1.png" class="rounded">
                 </div>
                 <span class="text-3xl font-medium text-blue-300">LexCalc</span>
                 <br>
