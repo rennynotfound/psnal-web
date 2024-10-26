@@ -103,7 +103,7 @@
     <div class="flex flex-col items-left text-left font-medium md:text-[3rem] text-red-400 mb-8">  <!-- Added margin-bottom for spacing -->
         <br><br><br><br><br><br>03<br />
         <div class="text-white">
-            <br>Research<span class="text-red-400">.</span><br /><br />
+            <br>Research<span class="text-red-400">.</span><br />
         </div>
     </div>
     
