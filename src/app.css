@@ -153,9 +153,12 @@ canvas {
       font-size: 3rem; /* Adjust size for desktop */
   }
 }
-@media (max-width: 640px) {
-  .box {
-      margin-left: 200px; /* Adjust as needed */
-      margin-right: 200px; /* Adjust as needed */
+/* Scale entire project for iPhone 11 */
+@media (max-width: 375px) { /* iPhone 11 width */
+  body {
+      transform: scale(1.2);
+      transform-origin: top left; /* Adjust origin for proper scaling */
+      width: 100vw; /* Ensure it takes the full width */
+      overflow-x: hidden; /* Prevent horizontal scroll */
   }
 }
