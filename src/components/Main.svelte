@@ -8,17 +8,14 @@
     </div>
 
     <div class="text-center">   
-        <h1 class="font-semibold text-7xl sm:text-10xl md:text-[5rem] mb-2"> <!-- Changed mb-4 to mb-2 -->
+        <h1 class="font-semibold text-7xl sm:text-10xl md:text-[5rem] mb-4">
             I'm <span class="poppins text-green-300">Ren</span>.
         </h1>
     </div>
-    
-    <div class="container flex flex-col justify-center items-center text-center p-2 m-0 h-screen">
-        <h1 class="mb-2"> <!-- Changed mb-2 to mb-0 -->
-            <span class="auto-type text-green-300 font-medium"></span>
-        </h1>
+
+    <div class="container flex justify-center items-center text-center">
+        <h1><span class="auto-type text-green-300 font-medium"></span></h1>
     </div>
-    
     
 
     <div class="text-center">
