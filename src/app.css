@@ -157,8 +157,6 @@ canvas {
 @media (max-width: 375px) { /* iPhone 11 width */
   body {
       transform: scale(1.2);
-      transform-origin: top left; /* Adjust origin for proper scaling */
-      width: 100vw; /* Ensure it takes the full width */
-      overflow-x: hidden; /* Prevent horizontal scroll */
+      
   }
 }
