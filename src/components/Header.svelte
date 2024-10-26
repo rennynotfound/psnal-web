@@ -23,7 +23,7 @@
     <!-- Left-aligned renLin(); with refresh functionality -->
     <div class="flex items-center">
         <a href={tabs[0].link} class="flex items-center" on:click|preventDefault={refreshPage}>
-            <p class="py-2 px-4 text-lg font-bold rounded-lg text-green-400 bg-transparent hover:text-green-300 transition duration-200 tracking-wide">
+            <p class="header-button py-2 px-4 text-lg font-bold rounded-lg text-green-400 bg-transparent hover:text-green-300 transition duration-200 tracking-wide">
                 {tabs[0].name}
             </p>
         </a>
@@ -33,7 +33,7 @@
     <div class="flex items-center gap-4 mx-auto">
         {#each tabs.slice(1) as tab}
             <a href={tab.link} class="flex items-center" on:click|preventDefault={() => scrollToPosition(tab.scrollY)}>
-                <p class="py-2 px-4 text-lg rounded-lg bg-neutral-800 text-white hover:text-green-300 transition duration-200">
+                <p class="header-button py-2 px-4 text-lg rounded-lg bg-neutral-800 text-white hover:text-green-300 transition duration-200">
                     {tab.name}
                 </p>
             </a>

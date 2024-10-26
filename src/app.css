@@ -79,3 +79,77 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
+/* Center text on mobile */
+@media (max-width: 640px) {
+  .text-center {
+      text-align: center; /* Centers text on mobile */
+  }
+
+  h6, h1 {
+      width: 100%; /* Ensure headers take full width */
+      margin: 0; /* Remove default margins */
+      display: block; /* Ensure the headers are block elements */
+      text-align: center; /* Center the text */
+  }
+}
+
+/* Ensure the text alignment is as desired on larger screens */
+@media (min-width: 641px) {
+  .text-center {
+      text-align: center; /* Centers text on larger screens too */
+  }
+
+  h6, h1 {
+      width: auto; /* Reset width on larger screens */
+      margin: auto; /* Center with auto margins */
+      text-align: inherit; /* Default to inherited alignment */
+  }
+}
+/* Adjust font size for mobile devices */
+@media (max-width: 640px) {
+  .text-yellow-200 { /* For "01" */
+      font-size: 3rem; /* Adjust size for "01" */
+  }
+
+  .text-white { /* For "About Me" */
+      font-size: 3rem; /* Adjust size for "About Me" */
+  }
+
+  /* Adjust the inner text size if needed */
+  .box p {
+      font-size: 1rem; /* Set the size you want for the inner text */
+  }
+}
+/* Adjust button size for mobile devices */
+@media (max-width: 640px) {
+  .header-button {
+      font-size: 0.875rem; /* Smaller font size for buttons on mobile */
+      padding: 0.5rem 1rem; /* Adjust padding for smaller buttons */
+  }
+}
+  
+/* Adjust the font size for the "03" text */
+@media (max-width: 640px) {
+  .text-red-400 {
+      font-size: 3rem; /* Adjust size for mobile */
+  }
+}
+
+/* Ensure "03" and "Research" text are the same size on larger screens */
+@media (min-width: 641px) {
+  .text-red-400 {
+      font-size: 3rem; /* Adjust size for desktop */
+  }
+}
+@media (max-width: 640px) {
+  .text-blue-400 {
+      font-size: 3rem; /* Adjust size for mobile */
+  }
+}
+
+/* Ensure "03" and "Research" text are the same size on larger screens */
+@media (min-width: 641px) {
+  .text-blue-400 {
+      font-size: 3rem; /* Adjust size for desktop */
+  }
+}
